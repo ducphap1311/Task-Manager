@@ -1,0 +1,125 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 16px !important;
+    color: white !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.button__status__edit:hover {
+    background-color: rgb(112, 190, 115) !important;
+}
+
+.button__status__edit:active {
+    background-color: rgb(64, 154, 67) !important;
+}
+
+.ant-tabs-tab {
+    color: rgb(141, 141, 141) !important;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.ant-tabs-tab:hover {
+    color: white !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: white !important;
+    opacity: 1;
+}
+
+.ant-pagination-item-link {
+    background-color: rgb(35, 48, 68) !important;
+    color: white !important;
+}
+
+.ant-pagination-item-link:hover {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(35, 48, 68) !important;
+}
+
+.ant-pagination-item {
+    background-color: rgb(35, 48, 68) !important;
+}
+
+.ant-pagination-item:hover {
+    background-color: white !important;
+}
+
+.ant-pagination-item a {
+    color: white !important;
+}
+
+.ant-pagination-item :hover {
+    color: rgb(35, 48, 68) !important;
+}
+
+.ant-pagination-item-active {
+    background-color: white !important;
+}
+
+.ant-pagination-item-active a {
+    color: rgb(35, 48, 68) !important;
+}
+
+.ant-pagination-item-ellipsis {
+    color: white !important;
+}
+
+.ant-pagination-options .ant-select-selector {
+    background-color: rgb(35, 48, 68) !important;
+    color: white !important;
+}
+
+.ant-select-arrow {
+    color: white !important;
+}
+
+.ant-menu-root {
+    background-color: rgb(35, 48, 68) !important;
+}
+
+.ant-empty-description {
+    color: white !important;
+}
+
+.ant-menu-item {
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    padding: 30px 28px 30px 32px !important;
+}
+.ant-menu-item-icon {
+    font-size: 20px !important;
+    margin-right: 5px !important;
+}
+.ant-menu-title-content {
+    font-size: 16px !important;
+}
+
+.ant-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.ant-menu-item-selected {
+    background-color: rgb(30, 41, 58) !important;
+}
+@media screen and (max-width: 990px) {
+    .header-content {
+        padding: 30px 70px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-content {
+        padding: 30px 20px !important;
+    }
+}
